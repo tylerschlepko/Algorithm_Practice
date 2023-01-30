@@ -26,7 +26,7 @@ var numTriplets = function(nums1, nums2) {
         }
     }
     types(nums1,nums2)
-    types(nums2, nums1)
+    types(nums2,nums1)
     return numOfTimes
 };
 
