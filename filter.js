@@ -16,10 +16,6 @@ const filter = (arr, condition)=>{
 }
 const arr = [1,2,3,4,5,6,7]
 const cond = (num) =>{
-    if(num % 2 === 0){
-        return true
-    } else {
-        return false
-    }
+    return num % 2 === 0
 } 
 console.log(filter(arr, cond)); 
